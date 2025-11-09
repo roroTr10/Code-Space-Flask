@@ -19,6 +19,7 @@
           {% for u in usuarios %}
               <li>
                   <span class="user">{{ u.nome }} ({{ u.idade }} anos)</span>
+                    <a class="edit" href="/editar/{{ u.id }}">✏️</a>
                   <a class="delete" href="/deletar/{{ u.id }}">🗑️</a>
               </li>
           {% else %}

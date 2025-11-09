@@ -1,0 +1,4 @@
+
+# Ignore SQLite DB files in instance folders
+instance/*.db
+*/instance/*.db
